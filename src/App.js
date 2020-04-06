@@ -25,14 +25,14 @@ class App extends Component{
     const masterDesc = ["2 TB Storage","10 Users Allowed","Send up to 20 GB"];
     return (
       <div className="App"> 
-        <p className="text-align-top title">Our pricing</p>
+        <p className="text-align-top title gray-title">Our pricing</p>
         <div className="container">
-          <span className = "text-muted">Monthly &nbsp;</span>
+          <span className = "gray-frecuency">Monthly &nbsp;</span>
           <label className="switch">
             <input type="checkbox" onChange={this.handleChange}></input>
             <span className="slider round"></span>
           </label>
-          <span className="text-muted">&nbsp; Annually</span>
+          <span className="gray-frecuency">&nbsp; Annually</span>
         </div>
         <div className="container-fluid">
           <div className = "row justify-content-center">

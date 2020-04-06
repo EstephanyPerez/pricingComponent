@@ -1,5 +1,6 @@
-.card-center {
+.card-hovered {
     background: linear-gradient(to right, hsl(236, 72%, 79%) 0%, hsl(237, 63%, 64%) 100%);
+    transform: scale(1.1);
 }
 
 .white {
@@ -20,8 +21,26 @@
 
 .dolar{
     font-size: 30px;
+    vertical-align: 1vh;
 }
 
 .price{
     font-size: 50px;
+}
+
+.gray{
+    color: hsl(232, 13%, 33%);
+}
+
+.gray-2{
+    color: hsl(233, 13%, 49%);
+}
+
+.btn{
+    font-size: small;
+    min-width: 18vw;
+}
+
+.btn:hover{
+    color:hsl(237, 63%, 64%);
 }
